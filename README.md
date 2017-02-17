@@ -6,4 +6,4 @@ Some simple parrallel programs demo.
 brew reinstall gcc --without-multilib
 
 ## SCP file to Edison
-scp <local_filename> <username>@edison.nersc.gov:~/
+scp \<local_filename\> \<username>@edison.nersc.gov:~/
