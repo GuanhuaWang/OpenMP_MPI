@@ -3,6 +3,8 @@
 #include <stdio.h>
 const char* dgemm_desc = "Simple blocked dgemm.";
 
+
+//used for define block size
 #if !defined(BLOCK_SIZE)
 #define BLOCK_SIZE 64
 #endif
