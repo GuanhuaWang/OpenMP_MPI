@@ -14,4 +14,9 @@ bash job-serial
 
 sbatch job-scale-multi-node
 
+or
+
+sbatch job-scale-single-node
+
+
 //on the server/remote machine
