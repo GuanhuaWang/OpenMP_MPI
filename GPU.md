@@ -12,4 +12,4 @@ sbatch job-stampede-gpu
 
 
 ## SIMD is not efficient for branches
-![]
+![](gpubranch.png)
