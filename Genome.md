@@ -1,6 +1,6 @@
 # homework 3 Genome assemble
 
-##make file
+## make file
 
 source init.sh
 make
