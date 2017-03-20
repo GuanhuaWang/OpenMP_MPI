@@ -8,9 +8,12 @@ make
 
 ## run jobs
 
+// on local machine
+
 bash job-serial
 
-// on local machine
+
+//on the server/remote machine
 
 sbatch job-scale-multi-node
 
@@ -19,4 +22,6 @@ or
 sbatch job-scale-single-node
 
 
-//on the server/remote machine
+### change UPC share heap size
+
+upcc -shared-heap=144MB
