@@ -12,6 +12,10 @@ make
 
 bash job-serial
 
+or 
+
+upcrun -n 4 hello_world
+
 
 //on the server/remote machine
 
