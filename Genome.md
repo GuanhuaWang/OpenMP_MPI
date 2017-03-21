@@ -2,9 +2,7 @@
 
 ## make file
 
-source init.sh   // or 
-
-module load bupc
+source init.sh   // or module load bupc
 
 make
 
