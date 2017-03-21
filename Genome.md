@@ -16,7 +16,7 @@ bash job-serial
 upcrun -n 4 hello_world
 
 
-//on the server/remote machine
+## on the server/remote machine
 
 sbatch job-scale-multi-node
 
