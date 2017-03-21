@@ -12,8 +12,7 @@ make
 
 bash job-serial
 
-or 
-
+### only running upc code
 upcrun -n 4 hello_world
 
 
