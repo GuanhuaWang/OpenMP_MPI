@@ -28,3 +28,8 @@ sbatch job-scale-single-node
 ### change UPC share heap size
 
 upcc -shared-heap=144MB
+
+### Check correctness of the UPC Genome assemble
+
+cat pgen\*.out > pgen.out
+
