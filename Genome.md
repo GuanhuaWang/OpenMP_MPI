@@ -33,3 +33,8 @@ upcc -shared-heap=144MB
 
 cat pgen\*.out > pgen.out
 
+sort pgen.out > pgen.sorted 
+
+sort serial.out > serial.sorted
+
+diff -q serial.sorted pgen.sorted
