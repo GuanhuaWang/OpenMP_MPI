@@ -39,7 +39,8 @@ sort serial.out > serial.sorted
 
 diff -q serial.sorted pgen.sorted
 
-
 ### UPC vs MPI
 
 MPI we need to design communication channel by ourselves, whereas in UPC we do not need that.
+
+//source shoudle be initialized
